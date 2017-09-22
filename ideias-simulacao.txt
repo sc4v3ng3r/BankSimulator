@@ -1,0 +1,31 @@
+A conta do cliente contem uma lista com os Logs de cada operação.
+cada LOG contem a operacao que foi registrada e será utiliado para
+obter-se a descrição da mesma.
+
+As operações podem ser:
+ * CRIAÇÃO DE CONTA
+ * DEPÓSITO NA PRÓPRIA CONTA
+ * DEPÓSITO NA CONTA DE TERCEIROS
+ * SAQUE NA PRÓPRIA CONTA
+ * TRANSFERÊNCIA DE CONTA PRÓPRIA PARA OUTRA CONTA
+ * SALDO DA PRÓPRIA CONTA.
+
+Das operações acima, as que são consideradas 
+MOVIMENTAÇÃO BANCÁRIAS SÃO:
+ * DEPÓSITO NA PRÓPRIA CONTA
+ * DEPÓSITO EM CONTA DE TERCEIRO
+ * SAQUE NA PRÓPRIA CONTA
+ * TRANSFERÊNCIA DE CONTA PRÓPRIA PARA OUTRA CONTA
+
+Outras Operações que não são MOVIMENTAÇÃO BANCÁRIA SÃO:
+ * CRIAÇÃO DE CONTA
+ * SAQUE EM CONTA
+
+
+ [-] DEVEREMOS TER UMA CLASSE "OperationGenerator", essa classe gera operações 
+     de forma randômica ou cria uma nova operação especificada.
+
+
+[*] ALÉM DE CADA CONTA REGISTRAR A MOVIMENTAÇÃO E AS OPERAÇÕES QUE OCORRERAM,
+PODE SER INTERESSANTE REGISTRAR AS OPERAÇÕES QUE OS "CLIENTES" FIZERAM AO DECORRER
+DA SIMULAÇÃO.

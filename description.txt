@@ -1,0 +1,7 @@
+BANCO:
+  O banco possui é uma entidade que oferece serviços de CRIAÇÃO de contas para seus clientes, onde, os mesmos
+ podem executar diversas operações/movimentações bancárias sob suas contas (SAQUE, DEPÓSITOS, SALDO, TRANSFERÊNCIA).
+ Todo banco possui seu próprio banco de dados de com o registro de seus clientes, o valor TOTAL que está
+ sendo guardado pelo banco, o número de operações executadas naquele banco. Seus clientes possuem UMA ÚNICA conta
+ e é registrado toda TENTATIVA do cliente de manipulação na conta como também todas as operações realizadas SOB A CONTA
+ do CLIENTE.
